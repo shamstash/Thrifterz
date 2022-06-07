@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  user-select: none;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgba(252, 250, 251, 255);
+  background: #f0f0f0;
+  margin: 0px;
+}
+
+#head {
+  font-size: 15pt;
+  background-color: RGB(231, 255, 4);
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+#head p {
+  font-family: "Courier New", sans-serif;
+  margin: auto;
+}
+
+#logoandmenu {
+  display: flex;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  transition: 0.5s;
+}
+
+.upperdiv .closeButton {
+  position: absolute;
+  top: 5px;
+  width: auto;
+  left: 177px;
+}
+
+.sideMenu-dropdown {
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0;
+  background: rgb(231, 255, 4);
+  padding-left: 8px;
+  transition:  max-height .3s,opacity .5s, visibility .5s ;
+
+}
+
+.sideMenu-dropdown a {
+    color: black !important;
+}
+
+.lowerdiv {
+  display: none;
+}
+
+.upperdiv button,
+.lowerdiv a,
+.upperdiv a {
+  text-align: left;
+  width: 100%;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  background: transparent;
+  border: none;
+  display: block;
+}
+
+.active {
+  background-color: rgb(231, 255, 4);
+  color: white;
+}
+
+#opennav {
+  padding: 23px;
+  text-decoration: none;
+  display: none;
+}
+
+header {
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation a {
+  color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+#thifterzLogo {
+  cursor: pointer;
+  width: 140px;
+  height: 70px;
+}
+
+.img-top {
+  object-fit: cover;
+  opacity: 0;
+  width: 350px;
+  position: absolute;
+  height: 450px;
+  top: 0;
+  left: 0;
+  border-radius: 10%;
+  z-index: 99;
+  transition: 0.4s;
+}
+
+.pics:hover .img-top {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+.dropbtn {
+  background: transparent;
+  color: black;
+  padding: 16px;
+  font-size: 15pt;
+  border: none;
+  height: 70px;
+  cursor: pointer;
+}
+
+.signInUP {
+  background: rgb(231, 255, 4);
+}
+
+.dropbtn:hover {
+  background: rgb(231, 255, 4);
+}
+
+.signInUP:hover {
+  background: black;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(231, 255, 4);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: ghostwhite;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(231, 255, 4);
+}
+
+.photo {
+  display: flex;
+  letter-spacing: 10px;
+  height: 600px;
+}
+
+.photo h1 {
+  margin: auto;
+  font-size: 3em;
+}
+
+.sweaters {
+  font-size: 30pt;
+  text-align: center;
+}
+
+.items1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.item1 {
+  object-fit: cover;
+  width: 350px;
+  height: 450px;
+  border-radius: 10%;
+}
+
+#item2 {
+  width: 350px;
+  height: 450px;
+  border-radius: 10%;
+}
+
+.item {
+  text-align: center;
+  margin: 2rem;
+  position: relative;
+}
+
+.itemTitle {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.button button {
+  background: rgb(231, 255, 4);
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-family: "Bebas Neue";
+}
+
+.button button:hover {
+  background: dimgray;
+  color: #f0f0f0;
+}
+
+.aboutUs h3 {
+  font-size: 20pt;
+  font-family: "Bebas Neue";
+  padding-left: 70px;
+}
+
+.aboutUsPics {
+  display: flex;
+}
+
+.aboutUsPics a {
+  cursor: pointer;
+}
+
+.aboutUsPic {
+  width: 50pt;
+  height: 50pt;
+  margin-left: 30pt;
+  border-radius: 50%;
+}
+
+.disc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs ul {
+  margin-left: 60pt;
+}
+
+.aboutUs ul p {
+  color: dimgray;
+}
+
+#aboutUsParagraph {
+  margin-left: 40pt;
+}
+
+.div1 span {
+  background: black;
+  color: RGB(231, 255, 4);
+  letter-spacing: 3px;
+  padding-left: 2px;
+}
+
+#p3 {
+  margin-right: 20px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 100px;
+  max-width: 650px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid black;
+}
+
+.product-title {
+  width: 47%;
+}
+
+.products-container ion-icon {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.price {
+  display: flex;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products {
+  width: 100%;
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.productName {
+  width: 175px;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 4px solid;
+}
+
+.formContainer {
+  display: flex;
+  height: 600px;
+}
+
+.brder {
+  margin: auto;
+  border: 10px solid;
+  padding: 10px;
+}
+
+.formInputs {
+  display: flex;
+  width: 250px;
+  padding: 10px;
+
+  justify-content: space-between;
+}
+
+.formInputsGender {
+  display: flex;
+  width: 250px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.formInputsButtons {
+  display: flex;
+  width: 250px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1000px) {
+  #imgandmenu #navMenu {
+    display: none;
+  }
+
+  #opennav {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  .lowerdiv {
+    display: block;
+  }
+  .headerRightSide {
+    display: none;
+  }
+
+  header {
+    position: absolute;
+  }
+
+   #thifterzLogo{
+    position: absolute;
+    right: 0;
+  }
+
+  .product-header {
+    justify-content: space-between;
+  }
+
+  .product-title {
+    width: 65%;
+  }
+  .price {width: auto;}
+  .quantity{width: auto;}
+  .total {width: auto;}
+
+}
+
+@media (max-width: 950px) {
+  .photo h1 {
+    text-align: center;
+  }
+}
