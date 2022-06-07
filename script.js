@@ -100,7 +100,7 @@ function displayCart() {
       productContainer.innerHTML += `
             <div class="product">
              <ion-icon name="close-circle-outline"></ion-icon>
-             <img src="../photos/${item.tag}.png">
+             <img src="photos/${item.tag}.png">
              <span class="productName">${item.name}</span>
              <div class="price">${item.price} JOD</div>
              <div class="quantity">
