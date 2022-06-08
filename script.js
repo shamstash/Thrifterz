@@ -49,6 +49,7 @@ function cartNumbers(product) {
   } else {
     localStorage.setItem("cartNumbers", 1);
     document.querySelector("#cartVal").textContent = 1;
+    document.querySelector("#cartVal2").textContent = 1;
   }
 
   setItems(product);
