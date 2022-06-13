@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../photos/image2.png">
+</head>
+<body>
+<div id="head">
+    <p>Vintage</p>
+</div>
+<header>
+    <div class="headerContainer">
+
+        <div id="mySidenav" class="sidenav">
+            <div class="upperdiv">
+                <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </a
+                ><a href="../index.html">Home</a>
+                <button class="sideMenu-dropdownButton">
+                    Shirts
+                    <ion-icon
+                            name="chevron-down-outline"
+                            style="float: right; "
+                    ></ion-icon>
+                </button>
+                <div class="sideMenu-dropdown">
+                    <a href="longsleeve.html">Long Sleeve</a>
+                    <a href="shortsleeve.html">Short Sleeve</a>
+                </div>
+                <button class="sideMenu-dropdownButton">Trousers
+                    <ion-icon
+                            name="chevron-down-outline"
+                            style="float: right; "
+                    ></ion-icon>
+                </button>
+                <div class="sideMenu-dropdown">
+                    <a href="trouserjeans.html">Jeans</a>
+                    <a href="corduroy.html">Corduroy</a>
+                </div>
+                <button class="sideMenu-dropdownButton">Jackets
+                    <ion-icon
+                            name="chevron-down-outline"
+                            style="float: right; "
+                    ></ion-icon>
+                </button>
+                <div class="sideMenu-dropdown">
+                    <a href="jacketpuffer.html">Puffer</a>
+                    <a href="jacketleather.html">Leather</a>
+                </div>
+            </div>
+            <div class="lowerdiv">
+                <a href="cart.html">Cart (<span id="cartVal2">0</span>)</a>
+                <a href="signIn.html">sign in</a> <a href="signup.html">sign up</a
+            ><a href="#aboutus">about Us</a>
+            </div>
+        </div>
+        <div id="logoandmenu">
+            <a
+                    href="javascript:void(0)"
+                    onclick="openNav()"
+                    class="dropbtn"
+                    id="opennav"
+            >☰</a
+            >
+            <a onclick="location.href='../index.html'">
+                <img src="../photos/thrifterzLogo.jpg" id="thifterzLogo"/>
+            </a>
+            <div id="imgandmenu">
+
+                <div id="navMenu">
+                    <nav class="navigation">
+                        <div class="dropdown">
+                            <button class="dropbtn">Shirts</button>
+                            <div class="dropdown-content">
+                                <a href="longsleeve.html">Long sleeve</a>
+                                <a href="shortsleeve.html">Short sleeve</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Trousers</button>
+                            <div class="dropdown-content">
+                                <a href="trouserjeans.html">Jeans</a>
+                                <a href="corduroy.html">Corduroy</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Jackets</button>
+                            <div class="dropdown-content">
+                                <a href="jacketpuffer.html">Puffer</a>
+                                <a href="jacketleather.html">Leather</a>
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="headerRightSide">
+            <button
+                    class="dropbtn "
+                    onclick="location.href='cart.html'"
+            >
+                cart (<span id="cartVal">0</span>)
+            </button>
+
+            <button
+                    class="dropbtn signInUP"
+                    onclick="location.href='signIn.html'"
+                    style="margin-right: -3px"
+            >
+                Sign In
+            </button>
+            <button
+                    class="dropbtn signInUP"
+                    onclick="location.href='signup.html'"
+            >
+                Sign Up
+            </button>
+            <button class="dropbtn" onclick="location.href='#aboutUs'">
+                About us
+            </button>
+        </div>
+    </div>
+</header>
+<section class="aboutUs" id="aboutUs">
+    <h3>About Us</h3>
+    <br />
+    <div class="disc">
+        <ul>
+            <p>Vintage store</p>
+            <li>Pre loved vintage garments.</li>
+            <li>Environmentally Sustainable Fashion.</li>
+            <li>Shop Sustainably, Wear Ethically</li>
+        </ul>
+        <div class="div1">
+            <p id="p3">
+                <span>Our vision</span> is to sell the best vintage clothes in
+                jordan and to give the customers the best quality of clothes
+            </p>
+        </div>
+    </div>
+    <br /><br />
+    <p id="aboutUsParagraph">Contact information.</p>
+    <br />
+    <div class="aboutUsPics">
+        <a
+                class=""
+                onclick="location.href='https://www.instagram.com/thrifterz.jo/'"
+        >
+            <img
+                    class="aboutUsPic"
+                    src="https://i.pinimg.com/originals/64/c7/c8/64c7c86fd70cb2aea77b49fd340164b3.webp"
+            />
+        </a>
+        <a
+                onclick="location.href='https://www.facebook.com/thrifterzjo-103915998315169/'"
+        >
+            <img
+                    class="aboutUsPic"
+                    src="https://i.pinimg.com/originals/b6/99/1c/b6991c27a36077737c09a40cb31ecdef.jpg"
+            />
+        </a>
+        <a onclick="location.href='https://twitter.com/thrifterzjo'">
+            <img
+                    class="aboutUsPic"
+                    src="https://i.pinimg.com/originals/1d/11/d1/1d11d1c89947d2f33ee856d5b57c964b.png"
+            />
+        </a>
+    </div>
+</section>
+<br /><br />
+<script src="../script/script.js"></script>
+<script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+</body>
+</html>
