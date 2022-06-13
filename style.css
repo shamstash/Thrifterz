@@ -333,7 +333,7 @@ header {
 }
 
 .product-title {
-  width: 47%;
+  width: 46.15%;
 }
 
 .products-container ion-icon {
@@ -344,20 +344,20 @@ header {
 
 .price {
   display: flex;
-  width: 10%;
+  width: 12%;
   align-items: center;
   justify-content: center;
 }
 
 .quantity {
-  width: 10%;
+  width: 17%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .total {
-  width: 33%;
+  width: 24.85%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -368,9 +368,8 @@ header {
 }
 
 .product {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  width: 46.15%;
   align-items: center;
   padding: 10px 0;
 }
@@ -454,17 +453,8 @@ header {
     right: 0;
   }
 
-  .product-header {
-    justify-content: space-between;
-  }
 
-  .product-title {
-    width: 65%;
-  }
-  .price {width: auto;}
-  .quantity{width: auto;}
-  .total {width: auto;}
-
+  
 }
 
 @media (max-width: 950px) {
