@@ -237,13 +237,13 @@ for (let i = 0; i < carts.length; i++) {
   
   displayCart();
   
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+function openNav() {
+  document.getElementById("mySidenav").style.transform = "translateX(0)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.transform = "translateX(-100%)";
+}
   
   function dropdownlist() {
     let dropdown = document.getElementsByClassName("sideMenu-dropdownButton");
