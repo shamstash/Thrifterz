@@ -163,8 +163,8 @@ function manageQuantity() {
       if (cartItems[currentProduct].inCart > 1) {
         cartItems[currentProduct].inCart -= 1;
         cartNumbers(cartItems[currentProduct], "decrease");
-        totalCost(cartItems[currentProduct], "decrease");
-        localStorage.setItem('productsInCart',JSON.stringify(cartItems));
+        totalCost(cartItems[currentProduct], "decrease" );
+        localStorage.setItem('productsInCart', JSON.stringify(cartItems));
         displayCart();
       }
     });
