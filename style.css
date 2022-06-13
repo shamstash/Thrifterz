@@ -490,6 +490,20 @@ header {
    .aboutUsPic {
      margin-left: 0;
    }
+   .product-title {
+   width: 54.15%
+   }
+
+   .total {
+   width:15.85%
+   }
+
+   .productName {
+   width: 100px;
+   margin-left: 3px;
+   }
+
+
 
 
   
