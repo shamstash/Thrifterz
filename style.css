@@ -503,9 +503,14 @@ header {
    }
 
    .productName {
-   width: 100px;
+   width: 75px;
    margin-left: 3px;
    }
+  
+  .removeItemsBtn {
+  margin-left: 5px;
+  margin-right: 5px;
+  }
 
 
 
