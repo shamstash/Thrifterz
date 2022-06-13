@@ -334,6 +334,7 @@ header {
 
 .product-title {
   width: 46.15%;
+  margin-left: 5px;
 }
 
 .products-container ion-icon {
