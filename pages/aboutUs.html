@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#E7FF04"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="icon" type="image/x-icon" href="../photos/image2.png">
+    <title>About Us</title>
 </head>
 <body>
 <div id="head">
@@ -15,12 +14,12 @@
 <header>
     <div class="headerContainer">
 
-        <div id="mySidenav" class="sidenav">
+        <div id="mySidenav" class="sidenav" style="width:70%; transform: translateX(-100%)">
+            <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">
+                <ion-icon name="close-outline"></ion-icon>
+            </a>
             <div class="upperdiv">
-                <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">
-                    <ion-icon name="close-outline"></ion-icon>
-                </a
-                ><a href="../index.html">Home</a>
+                <a href="../index.html">Home</a>
                 <button class="sideMenu-dropdownButton">
                     Shirts
                     <ion-icon
@@ -127,61 +126,41 @@
         </div>
     </div>
 </header>
-<section class="aboutUs" id="aboutUs">
+
+<section class="aboutUs" id="aboutUs" style="margin-top: 100px">
     <h3>About Us</h3>
-    <br />
+    <br>
     <div class="disc">
-        <ul>
-            <p>Vintage store</p>
+        <ul><p>Vintage store</p>
             <li>Pre loved vintage garments.</li>
             <li>Environmentally Sustainable Fashion.</li>
             <li>Shop Sustainably, Wear Ethically</li>
         </ul>
         <div class="div1">
-            <p id="p3">
-                <span>Our vision</span> is to sell the best vintage clothes in
-                jordan and to give the customers the best quality of clothes
-            </p>
+            <p id="p3"><span>Our vision</span> is to sell the best vintage clothes in jordan and
+                to give the customers the best quality of clothes</p>
         </div>
     </div>
-    <br /><br />
+    <br><br>
     <p id="aboutUsParagraph">Contact information.</p>
-    <br />
+    <br>
     <div class="aboutUsPics">
-        <a
-                class=""
-                onclick="location.href='https://www.instagram.com/thrifterz.jo/'"
-        >
-            <img
-                    class="aboutUsPic"
-                    src="https://i.pinimg.com/originals/64/c7/c8/64c7c86fd70cb2aea77b49fd340164b3.webp"
-            />
+        <a class="" onclick="location.href='https://www.instagram.com/thrifterz.jo/'">
+            <img class="aboutUsPic" src="https://i.pinimg.com/originals/64/c7/c8/64c7c86fd70cb2aea77b49fd340164b3.webp">
         </a>
-        <a
-                onclick="location.href='https://www.facebook.com/thrifterzjo-103915998315169/'"
-        >
-            <img
-                    class="aboutUsPic"
-                    src="https://i.pinimg.com/originals/b6/99/1c/b6991c27a36077737c09a40cb31ecdef.jpg"
-            />
+        <a onclick="location.href='https://www.facebook.com/thrifterzjo-103915998315169/'">
+            <img class="aboutUsPic" src="https://i.pinimg.com/originals/b6/99/1c/b6991c27a36077737c09a40cb31ecdef.jpg">
         </a>
         <a onclick="location.href='https://twitter.com/thrifterzjo'">
-            <img
-                    class="aboutUsPic"
-                    src="https://i.pinimg.com/originals/1d/11/d1/1d11d1c89947d2f33ee856d5b57c964b.png"
-            />
+            <img class="aboutUsPic" src="https://i.pinimg.com/originals/1d/11/d1/1d11d1c89947d2f33ee856d5b57c964b.png">
         </a>
     </div>
 </section>
-<br /><br />
+
 <script src="../script/script.js"></script>
-<script
-        type="module"
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-></script>
-<script
-        nomodule
-        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
+
 </html>
