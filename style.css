@@ -339,6 +339,10 @@ header {
   margin-left: 5px;
 }
 
+.removeItemsBtn {
+margin:10px
+}
+
 .products-container ion-icon {
   font-size: 25px;
   color: black;
