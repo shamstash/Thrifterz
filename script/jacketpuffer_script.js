@@ -222,11 +222,11 @@ onLoadCartNumbers();
 displayCart();
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.transform = "translateX(0)";
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySidenav").style.transform = "translateX(-100%)";
 }
 
 function dropdownlist() {
