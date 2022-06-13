@@ -480,7 +480,14 @@ header {
      display: flex;
      justify-content: space-evenly;
    }
+    .aboutUsPics {
+     display: flex;
+     justify-content: space-evenly;
+   }
 
+   .aboutUsPic {
+     margin-left: 0;
+   }
 
 
   
