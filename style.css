@@ -458,6 +458,7 @@ header {
    }
 
    .aboutUs h3 {
+     padding-left:0;
      margin-left: 25px;
    }
    .aboutUs ul {
