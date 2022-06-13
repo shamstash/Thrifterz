@@ -453,6 +453,33 @@ header {
     position: absolute;
     right: 0;
   }
+   .basketTotal {
+     margin-right: 10px;
+   }
+
+   .aboutUs h3 {
+     margin-left: 25px;
+   }
+   .aboutUs ul {
+     margin-left: 25px;
+   }
+   .aboutUs ul li {
+     margin: 5px;
+   }
+
+   #p3 {
+     margin: 15px
+   }
+
+   #aboutUsParagraph {
+     margin-left: 0;
+     text-align: center;
+   }
+   .aboutUspics {
+     display: flex;
+     justify-content: space-evenly;
+   }
+
 
 
   
