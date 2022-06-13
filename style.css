@@ -49,12 +49,14 @@ body {
   transition: 0.5s;
 }
 
-.upperdiv .closeButton {
+.sidenav .closeButton {
   position: absolute;
-  top: 5px;
-  width: auto;
-  left: 177px;
+  color: white;
+  font-size: 23px;
+  top: 15px;
+  right: 15px;
 }
+
 
 .sideMenu-dropdown {
   visibility: hidden;
